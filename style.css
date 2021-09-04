@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+#chartWrapper {
+  width: 36vw;
+  height: 16vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 4px 11px 0px;
+  padding: 2vw;
+  margin: 10vw auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#chart {
+  display: flex;
+  align-items: baseline;
+  width: 36vw;
+  min-height: 16vw;
+  justify-content: flex-end;
+}
+
+.bar {
+  width: 0.5vw;
+  background-color: rgb(245, 42, 228);
+  border-radius: 0.2vw;
+  margin: 0.2vw;
+  margin-top: auto;
+}
